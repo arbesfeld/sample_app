@@ -29,9 +29,11 @@ group :test do
   gem 'factory_girl_rails', '4.1.0'
   gem 'cucumber-rails', '1.2.1', :require => false
   gem 'database_cleaner', '0.7.0'
+  gem 'wdm', '~> 0.0.3'
   # gem 'launchy', '2.1.0'
   # gem 'rb-fsevent', '0.9.1', :require => false
   # gem 'growl', '1.0.3'
+  gem 'rb-notifu'
 end
 
 group :production do
