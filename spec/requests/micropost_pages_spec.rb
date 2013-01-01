@@ -28,9 +28,8 @@ describe "Micropost pages" do
     describe "as correct user" do
       before { visit root_path }
 
-      it "should deleted a micropost" do
+      it "should delete a micropost" do
         expect  { click_link "delete" }.to change(Micropost, :count).by(-1)
-        
       end
     end
   end
